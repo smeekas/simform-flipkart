@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  background: #b6b6b6;
 }
 .main_header {
   background-color: #2874f0;
@@ -71,8 +72,57 @@ body {
 }
 
 #main_items{
-  display: inline-block;
+  /* display: block; */
+  list-style: none;
+  /* border: 2px solid orange; */
+  text-align: center;
+  width: 100%;
+margin: auto;
+}
+main{
+  background: white;
 }
 .main_item{
   display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+  /* border: 2px solid blue; */
+}
+.main_item_img{
+  /* border: 2px solid green; */
+  width: 48px;
+  margin: auto;
+  height: 48px;
+
+}
+.main_item_txt{
+  font-size: 12px;
+  font-weight:500;
+}
+#top_offer_img{
+  background: url(./below_header/top_offer.png) center/cover;
+}
+#grocery_img{
+  background: url(./below_header/grocery.png) center/cover;
+}
+#mobile_img{
+  background: url(./below_header/mobiles.png) center/cover;
+}
+#fashion_img{
+  background: url(./below_header/fashion.png) center/cover;
+}
+#electronics_img{
+  background: url(./below_header/electronics.png) center/cover;
+}
+#home_img{
+  background: url(./below_header/home.jpeg) center/cover;
+}
+#appliances_img{
+  background: url(./below_header/appliances.png) center/cover;
+}
+#travel_img{
+  background: url(./below_header/travel.png) center/cover;
+}
+#beauty_toys_img{
+  background: url(./below_header/beauty_toy_more.png) center/cover;
 }
