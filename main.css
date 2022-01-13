@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.main_header {
+  background-color: #2874f0;
+  padding: 12px 16px;
+  text-align: center;
+}
+.main_header_logo_input {
+  display: inline-block;
+  width: 45%;
+}
+.main_header_logo_input a{
+    /* text-decoration: none;
+    color: white;
+    font-weight: bolder; */
+    background: url(./flipkart-plus_8d85f4.png)  center/cover;
+    
+}
+.main_header_logo_input img{
+    display: inline;
+    width: 64px;
+    vertical-align: middle;
+    height: 20px;
+}
+.main_header_logo_input input{
+    border: none;
+    padding: 8px;
+    width: 60%;
+}
+.main_header_logo_input input:focus{
+    outline: none;
+}
+.fas{
+    vertical-align: middle;
+}
+.fa-shopping-cart{
+    /* margin-right: 4px; */
+    vertical-align: top;
+}
+.main_nav {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+}
+.main_nav_items{
+    list-style: none;
+}
+.main_nav_item{
+    display: inline-block;
+    margin: 0px 16px;
+    
+}
+.main_nav_item a{
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid pink; */
+    padding: 2px 16px;
+
+}
+.login a{
+    background-color: white;
+    padding: 2px 32px;
+    color: #2874f0;
+}
+
+#main_items{
+  display: inline-block;
+}
+.main_item{
+  display: inline-block;
+}
